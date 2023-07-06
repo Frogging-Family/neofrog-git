@@ -17,9 +17,12 @@ index 64c75f6e..3e10db02 100755
  }
  
  get_model() {
-@@ -5208,25 +5208,25 @@ EOF
+@@ -5208,27 +5208,26 @@ EOF
+         ;;
+
          "Arch"*)
-             set_colors 6 6 7 1
+-            set_colors 6 6 7 1
++            set_colors 2 7
              read -rd '' ascii_data <<'EOF'
 -${c1}                   -`
 -                  .o+`
@@ -40,25 +43,24 @@ index 64c75f6e..3e10db02 100755
 -  `+sso+:-`                 `.-/+oso:
 - `++:.                           `-/+/
 - .`                                 `/
-+${c1}                   
-+       .---.`               `.---.       
-+    `/syhhhyso-           -osyhhhys/`    
-+   .syNMdhNNhss/``.---.``/sshNNhdMNys.   
-+   +sdMh.`+MNsssssssssssssssNM+`.hMds+   
-+   :syNNdhNNhssssssssssssssshNNhdNNys:   
-+    /ssyhhhysssssssssssssssssyhhhyss/    
++${c1}       .---.`               `.---.
++    `/s${c2}yhhhy${c1}so-           -os${c2}yhhhy${c1}s/`
++   .s${c2}yNMdhNNhs${c1}s/``.---.``/s${c2}shNNhdMN${c1}ys.
++   +${c2}sdMh.`+MNss${c1}sssssssssss${c2}ssNM+`.hMds${c1}+
++   :s${c2}vNNdhNNhs${c1}sssssssssssss${c2}shNNhdNNv${c1}s:
++    /ss${c2}vhhhv${c1}sssssssssssssssss${c2}vhhhv${c1}ss/
 +    .ossssssssssssssssssssssssssssso.    
 +   :sssssssssssssssssssssssssssssssss:   
 +  /sssssssssssssssssssssssssssssssssss/  
-+ :sssssssssssssoosssssssoosssssssssssss: 
-+ osssssssssssssoosssssssoossssssssssssso 
++ :sssssssssssssoosssssssoosssssssssssss:
++ osssssssssssss${c2}oo${c1}sssssss${c2}oo${c1}ssssssssssssso
 + osssssssssssyyyyhhhhhhhyyyyssssssssssso 
-+ /yyyyyyhhdmmmmNNNNNNNNNNNmmmmdhhyyyyyy/ 
-+  smmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmms  
-+   /dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd/   
-+    `:sdNNNNNNNNNNNNNNNNNNNNNNNNNds:`    
-+       `-+shdNNNNNNNNNNNNNNNdhs+-`       
-+             `.-:///////:-.`             
++ ${c2}\${c1}yyyyyyhhd${c2}mmmmNNNNNNNNNNNmmmm${c1}dhhyyyyyy${c2}/
++  ${c2}smmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmms
++   ${c2}/dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd/
++    ${c2}`:sdNNNNNNNNNNNNNNNNNNNNNNNNNds:`
++       ${c2}`-+shdNNNNNNNNNNNNNNNdhs+-`
++             ${c2}`.-:///////:-.`
  EOF
          ;;
  

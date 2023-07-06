@@ -3,7 +3,7 @@
 # Frogged by Tk-Glitch <tkg@froggi.es>
 pkgname=neofrog-git
 _pkgname=neofetch
-pkgver=7.0.0.r46.gc8e08cd7
+pkgver=7.1.0.r166.gccd5d9f5
 pkgrel=1
 pkgdesc="A CLI system information tool written in BASH that supports displaying images."
 arch=('any')
@@ -30,7 +30,7 @@ makedepends=('git')
 source=("$pkgname::git+https://github.com/dylanaraps/neofetch.git"
         "frog.patch")
 md5sums=('SKIP'
-         'a3fa5aeed248b78b27e351e3421d9ca5')
+         '94ea3a030c6695ab7ad06ed69c852b7b')
 
 pkgver() {
   cd "$pkgname"
