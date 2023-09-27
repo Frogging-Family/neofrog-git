@@ -30,7 +30,7 @@ makedepends=('git')
 source=("$pkgname::git+https://github.com/dylanaraps/neofetch.git"
         "frog.patch")
 md5sums=('SKIP'
-         '94ea3a030c6695ab7ad06ed69c852b7b')
+         '05564648e8f928876d1757ffbbe14740')
 
 pkgver() {
   cd "$pkgname"
